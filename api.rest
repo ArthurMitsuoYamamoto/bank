@@ -1,0 +1,17 @@
+GET http://localhost:8080
+
+###
+
+POST http://localhost:8080/conta
+Content-Type: application/json
+
+{
+    "numero": 123,
+    "agencia": "0001",
+    "titular": "Arthur Yamamoto",
+    "cpf": "12345678810",
+    "dataDeAbertura": "2025-03-22",
+    "saldo": 10,
+    "tipo": "SALARIO"
+
+}
