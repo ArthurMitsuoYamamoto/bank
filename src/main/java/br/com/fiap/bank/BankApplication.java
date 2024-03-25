@@ -15,6 +15,7 @@ public class BankApplication {
 
 	@GetMapping
 	public String home(){
-		return "ProjetoBank"; 
+		return "Projeto Bank - Arthur";
 	}
+
 }
